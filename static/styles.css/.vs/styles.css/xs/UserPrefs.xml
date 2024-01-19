@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../openai-quickstart-python/static/main.css">
+    <Files>
+      <File FileName="../../../../../openai-quickstart-python/app.py" Line="8" Column="1" />
+      <File FileName="../../../../../openai-quickstart-python/templates/index.html" Line="32" Column="19" />
+      <File FileName="../../../../../openai-quickstart-python/static/main.css" Line="8" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="styles.css" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MultiItemStartupConfigurations />
+</Properties>

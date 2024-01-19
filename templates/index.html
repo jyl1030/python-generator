@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Natural Language Translation to Json</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Welcome to My Translation Website</h1>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <form action="/translate" method="post">
+                    <div class="form-group">
+                        <textarea class="form-control" name="text" placeholder="Type something..." rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Translate</button>
+                    </div>
+                </form>
+                {% if translated_code %}
+                <div class="card mt-4">
+                    <div class="card-header">
+                        Translated Code
+                    </div>
+                    <div class="card-body">
+                        <pre class="mb-0">{{ translated_code }}</pre>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
